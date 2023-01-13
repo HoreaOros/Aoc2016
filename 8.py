@@ -44,7 +44,7 @@ for i in range(6):
             if j % 5 == 0:
                 print(' ', sep = '', end = '' )
             if screen[i, j] == 1:
-                print('o', sep = '', end = '')
+                print('O', sep = '', end = '')
             else:
                 print(' ', sep = '', end = '')
         print()
